@@ -1,4 +1,4 @@
-Name: DROIDZ (Takeover of abandoned coin)
+Name: DROIDZ
 
 Ticker: DRZ
 
