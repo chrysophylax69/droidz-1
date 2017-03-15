@@ -1097,7 +1097,6 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-
 	{"drz-seed01.chainworksindustries.com", "drz-seed01.chainworksindustries.com"},
 	{"drz-seed02.chainworksindustries.com", "drz-seed02.chainworksindustries.com"},
 	{"drz-seed03.chainworksindustries.com", "drz-seed03.chainworksindustries.com"},
@@ -1168,12 +1167,12 @@ static const char *strDNSSeed[][2] = {
 	{"drz-seed68.chainworksindustries.com", "drz-seed68.chainworksindustries.com"},
 	{"drz-seed69.chainworksindustries.com", "drz-seed69.chainworksindustries.com"},
 	{"drz-seed70.chainworksindustries.com", "drz-seed70.chainworksindustries.com"},
-	
+	{NULL, NULL},
+};
+
 // below are the old seed ip addresses - preserved for archival purposes ...
 //{"Droidz1", "92.233.105.4"},
 //{"Droidz2", "94.213.50.182"},
-
-};
 
 void ThreadDNSAddressSeed()
 {
