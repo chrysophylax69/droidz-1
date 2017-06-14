@@ -1167,7 +1167,7 @@ static const char *strDNSSeed[][2] = {
 	{"drz-seed68.chainworksindustries.com", "drz-seed68.chainworksindustries.com"},
 	{"drz-seed69.chainworksindustries.com", "drz-seed69.chainworksindustries.com"},
 	{"drz-seed70.chainworksindustries.com", "drz-seed70.chainworksindustries.com"},
-	{NULL, NULL},
+	{NULL, NULL}
 };
 
 // below are the old seed ip addresses - preserved for archival purposes ...
