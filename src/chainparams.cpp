@@ -154,9 +154,9 @@ public:
         vSeeds.push_back(CDNSSeedData("drz-seed69.chainworksindustries.com", "drz-seed69.chainworksindustries.com"));
         vSeeds.push_back(CDNSSeedData("drz-seed70.chainworksindustries.com", "drz-seed70.chainworksindustries.com"));	    
         
-        base58Prefixes[PUBKEY_ADDRESS] = {3};
-        base58Prefixes[SCRIPT_ADDRESS] = {85};
-        base58Prefixes[SECRET_KEY] = {153};
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector{3};
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector{85};
+        base58Prefixes[SECRET_KEY] = std::vector{153};
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
 
@@ -208,9 +208,9 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = {97};
-        base58Prefixes[SCRIPT_ADDRESS] = {196};
-        base58Prefixes[SECRET_KEY]     = {239};
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector{97};
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector{196};
+        base58Prefixes[SECRET_KEY] = std::vector{239};
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
